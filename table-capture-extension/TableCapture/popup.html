@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Table Capture</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h2>📊 Table Capture</h2>
+
+        <button id="scanBtn">
+            🔍 Detect Tables
+        </button>
+
+        <select id="tableSelect">
+            <option value="">
+                Select a table
+            </option>
+        </select>
+
+        <div id="info">
+            No table selected.
+        </div>
+
+        <button id="captureBtn" class="capture">
+            🚀 Capture Full Table
+        </button>
+
+        <div class="buttons">
+
+    <button id="copyBtn">
+        📋 Copy
+    </button>
+
+    <button id="csvBtn">
+        📄 CSV
+    </button>
+
+    <button id="jsonBtn">
+        {} JSON
+    </button>
+
+</div>
+
+<div class="control-buttons">
+
+    <button id="stopBtn">
+        ⏹ Stop
+    </button>
+
+    <button id="clearBtn">
+        🗑 Clear Data
+    </button>
+
+</div>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

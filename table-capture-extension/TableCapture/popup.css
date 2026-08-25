@@ -1,0 +1,14 @@
+.capture {
+    background: #087f23;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.capture:hover {
+    background: #096b20;
+}
+
+.capture:disabled {
+    background: #777;
+    cursor: not-allowed;
+}
